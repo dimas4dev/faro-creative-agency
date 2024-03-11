@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <header className="fixed w-full top-0 left-0 z-50">
+        <header className="w-full top-0 left-0">
             <div className="bg-white px-4 py-5 sm:px-6 lg:px-8 flex justify-between items-center">
                 <div className="flex items-center">
                     <img className="h-16 w-auto" src={Logo} alt="Logo" />
@@ -37,7 +37,6 @@ const Header: React.FC = () => {
             <div
                 className={`absolute top-0 left-0 h-screen w-full bg-white transform ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
                     } transition ease-in-out duration-300 sm:hidden md:block`}
-                style={{ zIndex: isOpen ? 50 : -1 }}
             >
                 <button
                     type="button"
