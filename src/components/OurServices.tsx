@@ -17,7 +17,7 @@ interface ServiceType {
 
 const OurServices: React.FC<OurServicesProps> = ({ text }) => {
     return (
-        <section className="py-8 bg-gray-100 flex flex-col justify-center items-center">
+        <section className="py-8 bg-white flex flex-col justify-center items-center">
             <div className="text-center mb-6">
                 <h3 className="text-3xl font-bold text-slate-700 mb-2">{text.title}</h3>
                 <p className="text-md text-slate-500">{text.description}</p>
