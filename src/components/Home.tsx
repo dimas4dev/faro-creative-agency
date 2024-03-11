@@ -15,7 +15,7 @@ const HomeComponent = ({ text }: HomeProps) => {
         // Añadido mt-16 para móviles, mt-20 para tablets hacia arriba como ejemplo. Ajusta estos valores según sea necesario.
         <section className="flex flex-col md:flex-row lg:flex-row  p-4">
             <article className="flex-1 p-4">
-                <div className="mb-4 text-center text-xl sm:text-xl md:text-2xl lg:text-4xl">
+                <div className="mb-4 text-center text-xl sm:text-xl md:text-2xl lg:text-3xl">
                     <h2 className="mt-4 font-bold text-slate-700">{title}</h2>
                     <p className="mt-2">{description}</p>
                 </div>
