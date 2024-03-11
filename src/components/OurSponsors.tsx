@@ -1,4 +1,3 @@
-import React from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// Importaciones de imágenes
 import FundOftamol from '@/assets/images/Sponsors/FundOftalmo.svg';
 import KellyMolina from '@/assets/images/Sponsors/KellyMolina.svg';
 import LivingJesus from '@/assets/images/Sponsors/LivingJesus.svg';
@@ -39,7 +37,7 @@ const OurSponsors = ({ text }: OurSponsorsProps) => {
                     navigation
                     breakpoints={{
                         640: {
-                            slidesPerView: 3, // Show 3 slides per view on md screens and above
+                            slidesPerView: 3,
                         },
                     }}
                     className="mx-auto"
