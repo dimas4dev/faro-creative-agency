@@ -1,4 +1,7 @@
-import Header from "./components/Header"
+import Header from "@/components/Header"
+import HomeComponent from "@/components/Home"
+
+import esLang from "@/i18n/es.json"
 
 
 const App = () => {
@@ -6,6 +9,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <HomeComponent text={esLang.HomeComponent} />
     </>
   )
 }

@@ -1,0 +1,127 @@
+{
+  "HomeComponent": {
+    "title": "Somos Faro Agencia Creativa",
+    "description": "No solo creemos en tu potencial y excelencia, sino te impulsamos a mejorar e iniciar tus sueños con nuestra asistencia",
+    "CTAButton": "¿Quieres saber más?"
+  },
+  "OurSponsors": {
+    "title": "Nuestro Recorrido Con Los Osados",
+    "description": "Te presento a quienes se han atrevido y han triunfado al creer en nuestros servicios."
+  },
+  "OurServicies": {
+    "title": "¿Conoces Nuestro Portafolio De Servicios?",
+    "description": "La innovación y el beneficio al alcance de tus manos",
+    "services": [
+      {
+        "titleService": "Diseño Web",
+        "descriptionService": "Creamos tu imágen digital, y apoyamos tu visibilidad"
+      },
+      {
+        "titleService": "Marketing Digital",
+        "descriptionService": "Enfocamos tu contenido digital a tus metas, ventas e ideas de negocio"
+      },
+      {
+        "titleService": "Manejo De Redes Sociales",
+        "descriptionService": "Fortalecemos tu presencia digital y diversificamos el contenido de tus redes"
+      }
+    ]
+  },
+  "OurHighlight": {
+    "title": "Lo más sobresaliente con nosotros",
+    "description": "Fortalecemos tu presencia digital y diversificamos el contenido de tus redes"
+  },
+  "OurTestimonials": {
+    "title": "Conoce Algunos Testimonios Y Referencias",
+    "description": "Estos son solo algunos de nuestros testimonios y agradecimientos sobre nuestro trabajo."
+  },
+  "OurServices": {
+    "title": "¿Conoces nuestro portafolio de servicios?",
+    "description": "La innovación y el beneficio al alcance de tus manos."
+  },
+  "Services": [
+    {
+      "title": "Diseño Web",
+      "description": "Creamos tu imágen digital, y apoyamos tu visibilidad.",
+      "image": "BoxSearchIcon",
+      "color": "#F3DBFA"
+    },
+    {
+      "title": "Manejo De Redes Sociales",
+      "description": "Creamos tu imágen digital, y apoyamos tu visibilidad.",
+      "image": "WalletIcon",
+      "color": "#FAF4E1"
+    },
+    {
+      "title": "Marketing Digital",
+      "description": "Enfocamos tu contenido digital a tus metas, ventas e ideas de negocio.",
+      "image": "WebIcon",
+      "color": "#F9DEDE"
+    }
+  ],
+  "Contact": {
+    "title": "Aquí estamos",
+    "description": "¿Quieres saber más sobre nosotros? ¿Tienes alguna duda? ¿Quieres iniciar un proyecto con nosotros? ¡Contáctanos!",
+    "form": {
+      "name": "Ingresa tu Nombre",
+      "email": "Ingresa tu Correo Electrónico",
+      "message": "Danos más detalles sobre tu proyecto",
+      "button": "Envía tu petición"
+    }
+  },
+  "Footer": {
+    "title": "Somos Faro Agencia Creativa",
+    "description": "No solo creemos en tu potencial y excelencia, sino te impulsamos a mejorar e iniciar tus sueños con nuestra asistencia",
+    "columnWhatWeDo": {
+      "title": "Que Hacemos",
+      "items": [
+        "Diseño Web",
+        "Manejo De Redes Sociales",
+        "Marketing Digital"
+      ],
+      "itemsBro": [
+        {
+          "nameSocialMedia": "Whatsapp",
+          "redirectUrl": "https://api.whatsapp.com/send?phone=573508204075&text=Hola%20Faro%20Agencia%20Creativa%20vengo%20de%20su%20pagina%20web."
+        },
+        {
+          "nameSocialMedia": "Instagram",
+          "redirectUrl": "https://www.instagram.com/faroagenciacreativa/"
+        },
+        {
+          "nameSocialMedia": "Facebook",
+          "redirectUrl": "https://www.facebook.com/faroagenciacreativa/"
+        },
+        {
+          "nameSocialMedia": "Twitter",
+          "redirectUrl": "https://twitter.com/faroagenciacr"
+        }
+      ]
+    },
+    "columAboutUs": {
+      "title": "Acerca de Nosotros",
+      "items": [
+        {
+          "title": "Nuestra Pagina",
+          "redirectUrl": "https://faropsicopedagogia.org"
+        }
+      ]
+    },
+    "columnContact": {
+      "title": "Contacto",
+      "items": [
+        {
+          "nameSocialMedia": "Whatsapp",
+          "redirectUrl": "https://api.whatsapp.com/send?phone=573508204075&text=Hola%20Faro%20Agencia%20Creativa%20vengo%20de%20su%20pagina%20web."
+        },
+        {
+          "nameSocialMedia": "Instagram",
+          "redirectUrl": "https://www.instagram.com/faropsicopedagogia/"
+        },
+        {
+          "nameSocialMedia": "Facebook",
+          "redirectUrl": "https://www.facebook.com/faropsicopedagogiaglobal/"
+        }
+      ]
+    }
+  }
+}
