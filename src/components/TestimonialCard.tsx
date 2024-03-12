@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Definiendo la estructura de las props para la tarjeta de testimonios.
 interface TestimonialCardProps {
     testimonial: {
         image: string;
@@ -10,7 +9,6 @@ interface TestimonialCardProps {
     };
 }
 
-// Componente de tarjeta de testimonios.
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
     return (
         <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow">

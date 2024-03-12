@@ -6,7 +6,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import TestimonialCard from './TestimonialCard';
-// import esLang from '@/i18n/es.json';
 
 interface TestimonialType {
     image: string;
@@ -15,8 +14,9 @@ interface TestimonialType {
     message: string;
 }
 
-const OurTestimonials: React.FC = () => {
-    // Reemplazar con tu data real de testimonios, esLang.Testimonials es solo un placeholder
+const OurTestimonials: React.FC<{ text: { title: string, description: string } }> = ({ text }) => {
+
+    const { title, description } = text;
     const testimonialsData: TestimonialType[] = [
         {
             image: 'https://www.pastoraldejuventud.es/wp-content/uploads/2020/04/Pastoral-de-juventud-testimonio-juan-luis-ciuda-real.jpg',
@@ -46,6 +46,10 @@ const OurTestimonials: React.FC = () => {
 
     return (
         <section className="bg-gray-100 py-8">
+            <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold text-slate-700 mb-2">{title}</h3>
+                <p className="text-md text-slate-500">{description}</p>
+            </div>
             <div className="container mx-auto px-4">
                 <Swiper
                     modules={[Pagination, Navigation, Autoplay]}

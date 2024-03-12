@@ -15,7 +15,7 @@ const App = () => {
       <HomeComponent text={esLang.HomeComponent} />
       <OurSponsors text={esLang.OurSponsors} />
       <OurServices text={esLang.OurServices} />
-      <OurTestimonials />
+      <OurTestimonials text={esLang.OurTestimonials} />
     </>
   )
 }
