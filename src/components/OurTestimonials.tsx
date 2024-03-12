@@ -45,7 +45,7 @@ const OurTestimonials: React.FC<{ text: { title: string, description: string } }
     ];
 
     return (
-        <section className="bg-gray-100 py-8">
+        <section className="bg-white py-8">
             <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-slate-700 mb-2">{title}</h3>
                 <p className="text-md text-slate-500">{description}</p>
