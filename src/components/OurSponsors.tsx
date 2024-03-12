@@ -1,4 +1,4 @@
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import 'swiper/css';
@@ -30,11 +30,13 @@ const OurSponsors = ({ text }: OurSponsorsProps) => {
                     <p className="text-md text-slate-500">{description}</p>
                 </div>
                 <Swiper
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation, Pagination, Autoplay]}
                     slidesPerView={1}
                     spaceBetween={30}
                     pagination={{ clickable: true }}
                     navigation
+                    loop={true}
+                    autoplay={{ delay: 5000 }}
                     breakpoints={{
                         640: {
                             slidesPerView: 3,
