@@ -9,6 +9,7 @@ import OurHighlights from "./components/OurHighlights"
 import ContactForm from "./components/ContactForm"
 import Footer from "./components/Footer"
 
+import "@/App.css"
 
 const App = () => {
 

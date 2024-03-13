@@ -1,8 +1,8 @@
 import React from 'react';
 
-import BoxSearchIcon from '@/assets/images/box.png';
-import WalletIcon from '@/assets/images/wallet.png';
-import WebIcon from '@/assets/images/web.png';
+import BoxSearchIcon from '@/assets/images/box.webp';
+import WalletIcon from '@/assets/images/wallet.webp';
+import WebIcon from '@/assets/images/web.webp';
 
 interface ServiceProps {
     id: string;

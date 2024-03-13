@@ -12,7 +12,7 @@ const OurHighlights: React.FC<HighlightProps> = ({ text, videoUrl }) => {
     const { title, description } = text;
 
     return (
-        <section className="bg-gray-100 py-8">
+        <section id="nuestros-logros" className="bg-gray-100 py-8">
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <div className="w-96 md:w-1/2 mb-4 md:mb-0">
                     {/* Responsive embed video */}

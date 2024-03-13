@@ -1,4 +1,4 @@
-import MainHomeImage from '@/assets/images/MainHomeImage.jpg';
+import MainHomeImage from '@/assets/images/MainHomeImage.webp';
 
 interface HomeProps {
     text: {
@@ -13,7 +13,7 @@ const HomeComponent = ({ text }: HomeProps) => {
 
     return (
         // Añadido mt-16 para móviles, mt-20 para tablets hacia arriba como ejemplo. Ajusta estos valores según sea necesario.
-        <section className="flex flex-col md:flex-row lg:flex-row  p-4">
+        <section id="home" className="flex flex-col md:flex-row lg:flex-row  p-4">
             <article className="flex-1 p-4">
                 <div className="mb-4 text-center text-xl sm:text-xl md:text-2xl lg:text-3xl">
                     <h2 className="mt-4 font-bold text-slate-700">{title}</h2>

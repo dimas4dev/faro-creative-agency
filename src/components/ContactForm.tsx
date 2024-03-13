@@ -20,7 +20,7 @@ const ContactForm: React.FC = () => {
     };
 
     return (
-        <div className="w-96 mx-auto bg-gray-100 p-6 rounded-lg shadow-lg mt-10">
+        <div id="contactanos" className="w-96 mx-auto bg-gray-100 p-6 rounded-lg shadow-lg mt-10">
             <h3 className="text-lg font-semibold mb-4">Aquí estamos</h3>
             <p className="mb-8">
                 ¿Quieres saber más sobre nosotros? ¿Tienes alguna duda? ¿Quieres iniciar un proyecto con nosotros? ¡Contáctanos!

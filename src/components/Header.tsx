@@ -13,8 +13,10 @@ const Header: React.FC = () => {
                 </div>
                 <div className="hidden sm:flex space-x-8">
                     <a href="#home" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-blue-500 transition-all duration-300">Home</a>
-                    <a href="#quienes-somos" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-green-500 transition-all duration-300">Quienes Somos</a>
+                    <a href="#nuestros-partners" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-green-500 transition-all duration-300">Nuestros Partners</a>
                     <a href="#nuestros-servicios" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-red-500 transition-all duration-300">Nuestros servicios</a>
+                    <a href="#nuestros-logros" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-pink-500 transition-all duration-300">Nuestros Logros</a>
+                    <a href="#nuestros-testimonios" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-purple-500 transition-all duration-300">Testimonios</a>
                     <a href="#contactanos" className="text-gray-900 hover:text-gray-600 border-b-2 border-transparent hover:border-yellow-500 transition-all duration-300">Contáctanos</a>
                 </div>
                 <button
