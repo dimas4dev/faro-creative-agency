@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 interface ContactFormValues {
     name: string;
     email: string;
     details: string;
+    phone: string;
 }
 
 const ContactForm: React.FC = () => {
-    const [formValues, setFormValues] = useState<ContactFormValues>({ name: '', email: '', details: '' });
+    const [formValues, setFormValues] = useState<ContactFormValues>({ name: '', email: '', details: '', phone: '' });
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
@@ -16,7 +18,21 @@ const ContactForm: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log(formValues); // Aquí manejarias el envío del formulario, por ejemplo, a una API.
+
+        emailjs.send(import.meta.env.VITE_EMAIL_SECRET, "template_contacto_nuevo", {
+            from_name: formValues.name,
+            message: formValues.details,
+            phone: formValues.phone,
+            email: formValues.email,
+            reply_to: "damendoza98@gmail.com"
+        }, import.meta.env.VITE_EMAIL_KEY);
+
+        emailjs.send(import.meta.env.VITE_EMAIL_SECRET, "template_esperaRespuesta", {
+            from_name: formValues.name,
+            reply_to: formValues.email
+        }, import.meta.env.VITE_EMAIL_KEY);
+
+
     };
 
     return (
@@ -41,6 +57,15 @@ const ContactForm: React.FC = () => {
                     value={formValues.email}
                     onChange={handleInputChange}
                     placeholder="Ingresa tu Correo Electrónico"
+                    className="w-full p-2 border border-gray-300 rounded-md"
+                    required
+                />
+                <input
+                    name="phone"
+                    type="number"
+                    value={formValues.phone}
+                    onChange={handleInputChange}
+                    placeholder="Ingresa tu número de teléfono"
                     className="w-full p-2 border border-gray-300 rounded-md"
                     required
                 />
